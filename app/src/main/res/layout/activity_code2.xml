@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:orientation="vertical"
+    tools:context=".Code2"
+    android:background="@android:color/holo_blue_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@android:color/holo_blue_bright"
+            android:gravity="center"
+            android:text="Bus Stop Code : 01013"
+            android:textColor="#000000"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bus Stop Description :"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:background="#A9A9A9"
+            android:text="St. Joseph's Ch"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Road Name :"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:background="#A9A9A9"
+            android:text="Victoria St"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bus Services :"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="#A9A9A9"
+            android:text="130, 133, 145, 197, 851, 851e, 960, 960e"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
